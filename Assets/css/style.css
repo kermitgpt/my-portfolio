@@ -38,12 +38,10 @@ nav ul {
 
 nav li {
   padding: 0 1.5rem;
-  flex-wrap: wrap;
 }
 
 ul a {
-  text-decoration: solid underline cornsilk 10px;
+  text-decoration: solid underline cornsilk 0.75rem;
   color: cornsilk;
   text-underline-offset: 0.75rem;
-  flex-wrap: wrap;
 }
