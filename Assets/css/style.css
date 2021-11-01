@@ -104,6 +104,7 @@ ul a {
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  width: 1200px;
 }
 
 .h2 {
@@ -143,8 +144,8 @@ ul a {
   background-image: url(https://images.unsplash.com/photo-1607706189992-eae578626c86?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3270&q=80);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
-  width: 2000px;
+  height: 600px;
+  width: 1200px;
   margin: 20px;
   float: right;
   border-radius: 20px;
@@ -232,3 +233,5 @@ footer ul {
     flex-direction: column;
   }
 }
+
+/* CSS tricks - mediaqueries shows breakpoints that are most used/up to date. Get rid of floats when using flexbox */
