@@ -34,7 +34,7 @@ Deployed this website using GitHub pages. In order to do this I went to settings
 
 ## 🔗 Link to deployed website
 
--
+- https://mattgrogandev.github.io/my-portfolio/
 
 ## 🖼️ Image of final website
 
