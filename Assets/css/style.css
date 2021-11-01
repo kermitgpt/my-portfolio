@@ -221,3 +221,14 @@ footer ul {
   color: cornsilk;
   text-underline-offset: 0.75rem;
 }
+
+@media screen and (max-width: 1000px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
