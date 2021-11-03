@@ -9,6 +9,7 @@ html {
 body {
   margin: 0 auto;
   background-color: darkgray;
+  height: 100%;
 }
 
 header nav {
