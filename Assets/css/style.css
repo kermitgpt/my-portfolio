@@ -21,7 +21,7 @@ header nav {
 }
 
 nav h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   padding: 2%;
   background-color: cornsilk;
   opacity: 0.3;
@@ -33,7 +33,7 @@ nav ul {
   list-style: none;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: 1.5rem;
   flex-wrap: wrap;
 }
 
@@ -41,10 +41,10 @@ nav li {
   padding: 0 1.5rem;
 }
 
-ul a {
-  text-decoration: solid underline cornsilk 0.75rem;
+nav a {
+  text-decoration: solid underline cornsilk 0.4rem;
   color: cornsilk;
-  text-underline-offset: 0.75rem;
+  text-underline-offset: 0.5rem;
 }
 
 .background-image {
@@ -53,12 +53,12 @@ ul a {
   background-image: url("https://images.unsplash.com/photo-1521729839347-131a32f9abcb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3297&q=80");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 480px;
+  height: 200px;
   width: 100%;
 }
 
 .background-image h1 {
-  font-size: 7rem;
+  font-size: 4rem;
   text-align: right;
   position: absolute;
   bottom: 20px;
@@ -75,14 +75,14 @@ ul a {
 
 .about-me h2 {
   margin-left: 20px;
-  padding: 20px;
+  padding: 30px;
   clear: both;
-  float: left;
+  /*   float: left; */
   width: 20%;
   height: 100%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 4rem;
+  font-size: 2rem;
   color: cornsilk;
 }
 
@@ -95,7 +95,7 @@ ul a {
   height: 100%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: cornsilk;
   display: inline-block;
 }
@@ -104,10 +104,12 @@ ul a {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  width: 1200px;
+  width: 1000px;
+  margin: 20px;
+  margin-right: 10px;
 }
 
-.h2 {
+main h2 {
   margin-left: 20px;
   padding: 20px;
   clear: both;
@@ -116,14 +118,14 @@ ul a {
   height: 100%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 4rem;
+  font-size: 2rem;
   color: cornsilk;
 }
 
 .work h3 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 4rem;
+  font-size: 1.2rem;
   color: cornsilk;
   position: absolute;
   text-align: center;
@@ -144,10 +146,10 @@ ul a {
   background-image: url(https://images.unsplash.com/photo-1607706189992-eae578626c86?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3270&q=80);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
-  width: 1200px;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 800px;
   margin: 20px;
-  float: right;
   border-radius: 20px;
 }
 .project-2 {
@@ -156,11 +158,11 @@ ul a {
   background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
-  width: 600px;
+  height: 250px;
+  width: 250px;
   margin: 20px;
-  float: right;
   border-radius: 20px;
+  flex-wrap: wrap;
 }
 .project-3 {
   display: flex;
@@ -168,11 +170,11 @@ ul a {
   background-image: url(https://images.unsplash.com/photo-1452860606245-08befc0ff44b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
-  width: 600px;
+  height: 250px;
+  width: 250px;
   margin: 20px;
-  float: right;
   border-radius: 20px;
+  flex-wrap: wrap;
 }
 .project-4 {
   display: flex;
@@ -180,11 +182,11 @@ ul a {
   background-image: url(https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1788&q=80);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
-  width: 600px;
+  height: 250px;
+  width: 250px;
   margin: 20px;
-  float: right;
   border-radius: 20px;
+  flex-wrap: wrap;
 }
 
 .contact-me {
@@ -194,14 +196,16 @@ ul a {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-color: cadetblue;
+  bottom: 0;
 }
 
 footer h2 {
-  font-size: 4rem;
+  margin: 1% 0;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
   padding: 2%;
   background-color: cornsilk;
   opacity: 0.3;
-  margin: 1% 0;
 }
 
 footer ul {
@@ -209,26 +213,33 @@ footer ul {
   list-style: none;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: 1.5rem;
   flex-wrap: wrap;
 }
 
 footer li {
-  padding: 0 1.5rem;
+  padding: 0 0.5rem;
 }
 
 footer ul {
-  text-decoration: solid underline cornsilk 0.75rem;
+  text-decoration: solid underline cornsilk 0.2rem;
   color: cornsilk;
-  text-underline-offset: 0.75rem;
+  text-underline-offset: 0.1rem;
 }
 
-@media screen and (max-width: 1000px) {
-  .header {
-    display: flex;
-    flex-direction: column;
+.contact-me a {
+  color: cornsilk;
+  text-underline-offset: 0.5rem;
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  body {
+    font-size: 1rem;
   }
-  .footer {
+}
+
+@media screen and (max-device-width: 1600px) {
+  body {
     display: flex;
     flex-direction: column;
   }
